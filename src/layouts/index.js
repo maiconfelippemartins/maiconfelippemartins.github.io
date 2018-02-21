@@ -11,10 +11,9 @@ import '../assets/styles/main.scss'
 const TemplateWrapper = ({ children }) => (
   <div style={{minHeight: '100vh'}} className="d-flex flex-column">
     <Helmet
-      title="Gatsby Panthera"
+      title="Maicon Felippe - Designer Gráfico e Ilustrador"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Gerenciamento das redes sociais de sua empresa, identidade visual da sua marca, criação de material impresso e digital e ilustrações ' },
       ]}
     />
     <div style={{flex: 1}}>
