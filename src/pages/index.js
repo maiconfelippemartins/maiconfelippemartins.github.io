@@ -43,7 +43,7 @@ const IndexPage = () => (
     />
     <About content={{
       title: 'Sobre mim',
-      about: "Curioso, inovador e minucioso (ou detalhista).\n\nVasto conhecimento através da autodidática, formação acadêmica e anos de experiência na área."
+      about: "Curioso, inovador e minucioso.\n\nVasto conhecimento através da autodidática, formação acadêmica e anos de experiência na área."
     }} />
   </div>
 )
