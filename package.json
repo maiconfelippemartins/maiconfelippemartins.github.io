@@ -32,7 +32,7 @@
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
-    "deploy": "gh-pages -d public -b master"
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {
     "prettier": "^1.10.2"
