@@ -1,0 +1,16 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: map-get($colors, text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Pridi', serif !important;
+}
+
+a {
+  color: inherit;
+  &:hover {
+    color: map-get($colors, lightGrey) !important;
+    text-decoration: none;
+  }
+}

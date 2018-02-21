@@ -1,0 +1,9 @@
+.btn-primary {
+  background-color: map-get($colors, cta);
+  border-color: map-get($colors, cta);
+  &:hover {
+    background-color: map-get($colors, ctaHover);
+    border-color: map-get($colors, ctaHover);
+  }
+  color: rgba(255, 255, 255, 1);
+}

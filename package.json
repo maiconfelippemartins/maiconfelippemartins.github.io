@@ -1,0 +1,42 @@
+{
+  "name": "gatsby-panthera",
+  "description": "Panthera",
+  "version": "1.0.0",
+  "author": "Mateus Ferreira <mateus@dalbinaco.com>",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bootstrap": "4.0.0-beta.3",
+    "classnames": "^2.2.5",
+    "express": "^4.16.2",
+    "feather-icons": "^4.5.0",
+    "gatsby": "^1.9.202",
+    "gatsby-image": "^1.0.37",
+    "gatsby-link": "^1.6.37",
+    "gatsby-plugin-google-analytics": "^1.0.19",
+    "gatsby-plugin-google-fonts": "^0.0.3",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sass": "^1.0.17",
+    "gatsby-plugin-sharp": "^1.6.30",
+    "gatsby-transformer-sharp": "^1.6.19",
+    "mailgun.js": "^2.0.1",
+    "react-helmet": "^5.2.0",
+    "react-markdown": "^3.1.4",
+    "react-simple-icons": "^1.0.0-beta.5"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "postinstall": "gatsby build"
+  },
+  "devDependencies": {
+    "prettier": "^1.10.2"
+  }
+}
