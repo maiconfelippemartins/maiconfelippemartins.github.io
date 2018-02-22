@@ -10,7 +10,7 @@ const IndexPage = () => (
     <Main
       tagline="Maicon Felippe"
       subtagline="designer e ilustrador"
-      cta="Ver portfolio"
+      cta="Ver portfólio"
       action={{
         href: 'https://www.behance.net/maiconfelippe'
       }}
@@ -30,7 +30,7 @@ const IndexPage = () => (
         {
           icon: 'image',
           title: 'Identidade Visual',
-          description: 'Logomarca, slogan, manual da marca, branding'
+          description: 'Marca, slogan, manual da marca, branding'
         },
         {
           icon: 'edit-3',
