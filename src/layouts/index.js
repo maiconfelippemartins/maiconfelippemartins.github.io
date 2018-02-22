@@ -11,9 +11,9 @@ import '../assets/styles/main.scss'
 const TemplateWrapper = ({ children }) => (
   <div style={{minHeight: '100vh'}} className="d-flex flex-column">
     <Helmet
-      title="Maicon Felippe - Designer Gráfico e Ilustrador"
+      title="Maicon Felippe® - Designer gráfico e ilustrador"
       meta={[
-        { name: 'description', content: 'Gerenciamento das redes sociais de sua empresa, identidade visual da sua marca, criação de material impresso e digital e ilustrações ' },
+        { name: 'description', content: 'Designer gráfico e ilustrador apaixonado por tudo que envolve design' },
       ]}
     >
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
