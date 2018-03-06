@@ -21,6 +21,7 @@ const TemplateWrapper = ({ children }) => (
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="theme-color" content="#fff" />
+      <meta property="og:image" content={require('../assets/img/ogimage.png')} />
     </Helmet>
     <div style={{flex: 1}}>
       <div>
